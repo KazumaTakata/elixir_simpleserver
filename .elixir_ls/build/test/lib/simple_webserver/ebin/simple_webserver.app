@@ -1,0 +1,10 @@
+{application,simple_webserver,
+             [{applications,[kernel,stdlib,elixir,logger,cowboy,plug]},
+              {description,"simple_webserver"},
+              {modules,['Elixir.Example','Elixir.Example.Controller',
+                        'Elixir.Example.HelloWorldPlug',
+                        'Elixir.Example.Router']},
+              {registered,[]},
+              {vsn,"0.1.0"},
+              {extra_applications,[logger]},
+              {mod,{'Elixir.Example',[]}}]}.
